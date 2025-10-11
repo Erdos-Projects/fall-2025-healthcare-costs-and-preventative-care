@@ -1,0 +1,11 @@
+name: erdos_project
+channels:
+  - conda-forge
+dependencies:
+  - jupyter
+  - numpy
+  - pandas >= 2.0
+  - pip >= 24.0
+  - python = 3.12
+  - pip:
+      - simple-ddl-parser
